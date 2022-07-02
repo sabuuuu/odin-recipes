@@ -1,0 +1,175 @@
+@font-face {
+    font-family: fbold;
+    src: url(font/fbold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: fregular;
+    src: url(font/fregular.ttf);
+    font-weight: 500;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'fregular', sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(48, 46, 46, 0.808);
+}
+a, a:hover, a:focus {
+    text-decoration:none;
+    color: #fff;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+header{
+    line-height: 50px;
+    background-image: url(bg.jfif);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 80px 0 80px;
+}
+.log {
+    display: flex;
+    align-items: baseline;
+}
+
+.log3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 40px 20px 40px ;
+    margin: 0 40px 0 0;
+}
+header h1 {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    margin-top: 20px;
+    padding: 15px;
+}
+header button {
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+}
+
+input {
+    border: none;
+    height: 25px;
+    border: 0;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 10px 0 0 10px;
+    margin: 15px 0 15px 15px;
+
+}
+.btn {
+    border: 0;
+    cursor: pointer;
+    font-size: 15px;
+    height: 30px;
+    width: 50px;
+    border-radius:0 10px 10px 0 ;
+    background-color: #fff;
+}
+.btn:focus,
+input:focus {
+    outline: none;
+}
+.sign , .login {
+    margin: 10px;
+    height: 30px;
+    width: 90px;
+    font-family: fbold , sans-serif;
+}
+.sign a, .login a{
+    color: rgb(32, 32, 32);
+}
+
+.allb button , .allc button {
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: fbold , sans-serif;
+    color: rgb(32, 32, 32);
+    background-color: rgb(212, 206, 206);
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 120px;
+}
+.allb a , .allc a{
+    color: rgb(32, 32, 32);
+
+}.allb a:hover , .allc a:hover{
+    color: rgb(80, 47, 3);
+
+}
+.genres {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.allb {
+    background-color: rgb(201, 195, 195);
+    border-radius: 10px;
+}
+.recipes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+    
+.r {
+
+    background: rgb(160, 160, 160) ;
+    width: 270px;
+    margin: 10px;
+    border-radius: 10px;
+}
+img {
+    width: 100%;
+    height: 400px;
+}
+.r img {
+    border-radius: 7px 7px 0 0;
+}
+.r h1,.r a {
+    margin: 20px;
+}
+.r h1 {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
+
+.r a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(51, 49, 49);
+    text-align: center;
+    border-radius: 4px;
+    line-height: 40px;
+    border-bottom: 2px solid rgb(14, 12, 12);
+    margin: 15px;
+}
+.r:hover {
+    background-color: rgb(189, 187, 187);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition:all .1s ease;
+}
