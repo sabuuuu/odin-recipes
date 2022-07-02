@@ -1,0 +1,61 @@
+@font-face {
+    font-family: fbold;
+    src: url(/font/fbold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: fregular;
+    src: url(/font/fregular.ttf);
+    font-weight: 500;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'fregular', sans-serif;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(180, 178, 178, 0.808);
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(180, 178, 178, 0.808);
+    padding: 15px;
+}
+button {
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: rgba(202, 198, 202, 0.8);
+}
+button:hover {
+    background-color: rgba(36, 34, 34, 0.808);
+}
+
+a, a:hover, a:focus {
+    text-decoration:none;
+    color: black;
+    font-family: fbold , sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    -ms-flex-align: center;
+    padding: 15px;
+    padding-left: 0;
+    padding-top: 0;
+}
+.present {
+    margin-right: 15px;
+
+}
+img {
+    border-radius: 0 0 15px 15px;
+    height: 500px;
+}
