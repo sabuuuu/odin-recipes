@@ -1,3 +1,2 @@
 # odin-recipes
--This is the first small project in the "The odin project" curriculum.
--In this project all the HTML knowledge will put to work means it's the only language that's going to be used. # odin-recipes
+-This is the first small project in the "The odin project" curriculum ,the goal is to make an easy recipe webpage containing 3 random recipes using HTML and CSS
